@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Büşra ❤️</title>
 
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section id="welcome">
+
+<h1>❤️ Büşra ❤️</h1>
+
+<p>
+Hayatımın en güzel tesadüfü...
+</p>
+
+<button onclick="start()">Başla ❤️</button>
+
+</section>
+
+<section id="counter" class="hidden">
+
+<h2>Tanışalı</h2>
+
+<div id="timer"></div>
+
+<button onclick="messagePage()">
+Sana Bir Mesajım Var ❤️
+</button>
+
+</section>
+
+<section id="message" class="hidden">
+
+<img src="img/busra.jpg">
+
+<h2>Sana Bir Mesajım Var</h2>
+
+<p id="text">
+
+Seninle tanıştığım günden beri
+hayatım daha güzel.
+
+İyi ki varsın.
+
+İyi ki seni tanımışım.
+
+Her geçen gün sana olan sevgim
+daha da büyüyor.
+
+❤️
+
+</p>
+
+<button onclick="surprise()">
+Son Sürpriz 🎁
+</button>
+
+</section>
+
+<section id="surprise" class="hidden">
+
+<h1>❤️ Seni Çok Seviyorum Büşra ❤️</h1>
+
+<p>
+
+Hayatıma geldiğin için teşekkür ederim.
+
+Sonsuza kadar yanımda ol.
+
+</p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
